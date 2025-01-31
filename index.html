@@ -24,6 +24,30 @@
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.png" sizes="32x32" />
 
+    <style>
+      /* Default styles for all screens */
+.stg-col-4 {
+  padding: 0; /* Remove default padding if any */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+  .stg-col-4 {
+    margin-bottom: 20px; /* Add spacing below each column */
+  }
+
+  /* Optional: Add horizontal spacing between images */
+  .stg-row {
+    gap: 10px; /* Adds spacing between columns */
+  }
+}
+    </style>
+
+
+
+
+
+
 
   </head>
   <body>
@@ -204,7 +228,7 @@
                 class="bringer-hero-media-content bringer-masked-content at-top-right"
               >
                 <div
-                  class="bringer-hero-media-content-inner m-align-center"
+                  class="bringer-hero-media-content-inner m-align-left"
                   data-appear="fade-left"
                   data-unload="fade-right"
                   data-delay="100"
