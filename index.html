@@ -39,11 +39,39 @@
         }
       }
 
+      #labs a {
+  text-transform: none !important;
+}
+
 
       @media (max-width: 768px) { /* Adjust for mobile screens */
   .bringer-hero-media-content-inner {
     margin-left: -36px; /* Move the text slightly left */
   }
+
+  @media (max-width: 768px) {
+  #labs {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next line */
+    justify-content: flex-start; /* Aligns items to the left */
+    padding-left: 0;
+    margin-left: -20px; /* Adjust to move left */
+  }
+
+  #labs li {
+    flex: 1 1 45%; /* Ensures two items per row, adjust as needed */
+    text-align: left; /* Aligns text to the left */
+    margin-bottom: 10px; /* Adds space between rows */
+  }
+  #labs a {
+  text-transform: none !important;
+}
+}
+
+
+
+
+
 }
 
     </style>
@@ -244,21 +272,22 @@
               </div>
               <!-- Tags List -->
               <ul
+                id="labs"
                 class="bringer-tags-list"
                 data-unload="fade-left"
                 data-delay="150"
               >
                 <li data-appear="fade-up" data-delay="400">
-                  <a href="services-details.html"> iii Labs</a>
+                  <a href="services-details.html"> iii  Partners </a>
                 </li>
                 <li data-appear="fade-up" data-delay="450">
                   <a href="services-details.html">iii Consulting</a>
                 </li>
                 <li data-appear="fade-up" data-delay="200">
-                  <a href="services-details.html">iii Gaming</a>
+                  <a href="services-details.html">iii Labs</a>
                 </li>
-                <li data-appear="fade-up" data-delay="250">
-                  <a href="services-details.html">iii Partners</a>
+                <li data-appear="fade-up" data-delay="250" >
+                  <a href="services-details.html">iii Gaming</a>
                 </li>
               
               </ul>
