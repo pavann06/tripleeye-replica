@@ -40,40 +40,34 @@
       }
 
       #labs a {
-  text-transform: none !important;
-}
+        text-transform: none !important;
+      }
 
+      @media (max-width: 768px) {
+        /* Adjust for mobile screens */
+        .bringer-hero-media-content-inner {
+          margin-left: -36px; /* Move the text slightly left */
+        }
 
-      @media (max-width: 768px) { /* Adjust for mobile screens */
-  .bringer-hero-media-content-inner {
-    margin-left: -36px; /* Move the text slightly left */
-  }
+        @media (max-width: 768px) {
+          #labs {
+            display: flex;
+            flex-wrap: wrap; /* Ensures items wrap to the next line */
+            justify-content: flex-start; /* Aligns items to the left */
+            padding-left: 0;
+            margin-left: -8px; /* Adjust to move left */
+          }
 
-  @media (max-width: 768px) {
-  #labs {
-    display: flex;
-    flex-wrap: wrap; /* Ensures items wrap to the next line */
-    justify-content: flex-start; /* Aligns items to the left */
-    padding-left: 0;
-    margin-left: -8px; /* Adjust to move left */
-  }
-
-  #labs li {
-    flex: 1 1 45%; /* Ensures two items per row, adjust as needed */
-    text-align: left; /* Aligns text to the left */
-    margin-bottom: 10px; /* Adds space between rows */
-  }
-  #labs a {
-  text-transform: none !important;
-}
-}
-
-
-
-
-
-}
-
+          #labs li {
+            flex: 1 1 45%; /* Ensures two items per row, adjust as needed */
+            text-align: left; /* Aligns text to the left */
+            margin-bottom: 10px; /* Adds space between rows */
+          }
+          #labs a {
+            text-transform: none !important;
+          }
+        }
+      }
     </style>
   </head>
   <body>
@@ -278,7 +272,7 @@
                 data-delay="150"
               >
                 <li data-appear="fade-up" data-delay="400">
-                  <a href="services-details.html"> iii  Partners </a>
+                  <a href="services-details.html"> iii Partners </a>
                 </li>
                 <li data-appear="fade-up" data-delay="450">
                   <a href="services-details.html">iii Consulting</a>
@@ -286,10 +280,9 @@
                 <li data-appear="fade-up" data-delay="200">
                   <a href="services-details.html">iii Labs</a>
                 </li>
-                <li data-appear="fade-up" data-delay="250" >
-                  <a href="services-details.html">iii Gaming</a>
+                <li data-appear="fade-up" data-delay="250">
+                  <a href="service-details.html">iii Gaming</a>
                 </li>
-              
               </ul>
             </div>
           </div>
@@ -360,18 +353,20 @@
             >
               <div>
                 <h3>
-                  At Tripleye, we 
-                  <span style="color: #5c9dff ;">ideate</span> with purpose, 
-                  <span style="color: #5c9dff;">incubate</span> with precision, 
-                  and <span style="color: #5c9dff;">incorporate</span> innovation at every step.
+                  At Tripleye, we
+                  <span style="color: #5c9dff">ideate</span> with purpose,
+                  <span style="color: #5c9dff">incubate</span> with precision,
+                  and <span style="color: #5c9dff">incorporate</span> innovation
+                  at every step.
                 </h3>
-                
+
                 <p class="bringer-large-text">
-                  Guided by <span style="color: #5c9dff;">insight</span>, driven by 
-                  <span style="color: #5c9dff;">integrity</span>, and fueled by 
-                  <span style="color: #5c9dff;">inspiration</span>, we turn visionary ideas into successful ventures.
+                  Guided by <span style="color: #5c9dff">insight</span>, driven
+                  by <span style="color: #5c9dff">integrity</span>, and fueled
+                  by <span style="color: #5c9dff">inspiration</span>, we turn
+                  visionary ideas into successful ventures.
                 </p>
-                
+
                 <p>
                   We go beyond traditional investment by offering hands-on
                   mentorship and expert consulting services to ensure our
@@ -407,9 +402,10 @@
           <div class="stg-row">
             <div class="stg-col-4 stg-tp-bottom-gap-l" data-unload="fade-left">
               <div class="bringer-sticky-block">
-                <h2>What we do </h2>
+                <h2>What we do</h2>
                 <p class="bringer-large-text">
-                  We invest & help passionate founders while we build great products at our labs
+                  We invest & help passionate founders while we build great
+                  products at our labs
                 </p>
                 <!-- <div class="align-right">
                   <a href="services.html" class="bringer-arrow-link"
@@ -431,13 +427,18 @@
                   <div class="bringer-price-card-title">
                     <h5>iii Partners<span class="bringer-accent">.</span></h5>
                     <p>
-                      Committed to investing in passionate founders and promising ventures that align with our vision and values. We were the first investors in some incredible start-ups that have grown exponentially. 
+                      Committed to investing in passionate founders and
+                      promising ventures that align with our vision and values.
+                      We were the first investors in some incredible start-ups
+                      that have grown exponentially.
                     </p>
                   </div>
                   <div class="bringer-price-card-footer">
                     <!-- <span class="bringer-label">Starting from</span>
                     <div class="bringer-price">$199.<sup>99</sup></div> -->
-                    <a href="portfolio-grid.html" class="bringer-button is-fullwidth"
+                    <a
+                      href="portfolio-grid.html"
+                      class="bringer-button is-fullwidth"
                       >View our Portfolio</a
                     >
                   </div>
@@ -449,11 +450,13 @@
                   <div class="bringer-price-card-title">
                     <h5>iii Consulting<span class="bringer-accent">.</span></h5>
                     <p>
-                      We go beyond investing, offering hands-on support in tech, operations, marketing, HR, and office space to help our partner founders craft great products, go to market, and thrive.
+                      We go beyond investing, offering hands-on support in tech,
+                      operations, marketing, HR, and office space to help our
+                      partner founders craft great products, go to market, and
+                      thrive.
                     </p>
                   </div>
                   <div class="bringer-price-card-footer">
-                   
                     <a href="pricing.html" class="bringer-button is-fullwidth"
                       >Explore Services</a
                     >
@@ -466,11 +469,13 @@
                   <div class="bringer-price-card-title">
                     <h5>iii Labs<span class="bringer-accent">.</span></h5>
                     <p>
-                      We thrive on innovation through dedicated ideation sessions and laser-focused R&D. When we uncover a breakthrough, we don’t just admire it—we dive in, build MVPs, and scale with unmatched speed.
+                      We thrive on innovation through dedicated ideation
+                      sessions and laser-focused R&D. When we uncover a
+                      breakthrough, we don’t just admire it—we dive in, build
+                      MVPs, and scale with unmatched speed.
                     </p>
                   </div>
                   <div class="bringer-price-card-footer">
-                    
                     <a href="pricing.html" class="bringer-button is-fullwidth"
                       >Explore iii Labs</a
                     >
@@ -481,16 +486,16 @@
                 <!-- Price Card -->
                 <div class="bringer-price-card-item bringer-block">
                   <div class="bringer-price-card-title">
-                    <h5>
-                      iii Gaming<span class="bringer-accent">.</span>
-                    </h5>
+                    <h5>iii Gaming<span class="bringer-accent">.</span></h5>
                     <p>
-                      At our core, with our Founder having built a gaming unicorn, we create user-driven, innovative, and trustworthy real money and casual games, fueled by perpetual innovations & reinventions
+                      At our core, with our Founder having built a gaming
+                      unicorn, we create user-driven, innovative, and
+                      trustworthy real money and casual games, fueled by
+                      perpetual innovations & reinventions
                     </p>
                   </div>
                   <div class="bringer-price-card-footer">
-                  
-                    <a href="pricing.html" class="bringer-button is-fullwidth"
+                    <a href="service-details.html" class="bringer-button is-fullwidth"
                       >Explore Gaming</a
                     >
                   </div>
@@ -508,7 +513,7 @@
             <div class="bringer-marquee-inner">
               <ul class="bringer-marquee-list">
                 <li>
-                  <h2>Fintech </h2>
+                  <h2>Fintech</h2>
                 </li>
                 <li>
                   <h2>Consumer</h2>
@@ -517,14 +522,14 @@
                   <h2>Fitness</h2>
                 </li>
                 <li>
-                  <h2> AI</h2>
+                  <h2>AI</h2>
                 </li>
                 <li>
                   <h2>Deeptech</h2>
                 </li>
                 <li><h2>Crypto</h2></li>
                 <li><h2>SAAS</h2></li>
-                <li><h2>F&B</h2> </li>
+                <li><h2>F&B</h2></li>
                 <li><h2>Climate Tech</h2></li>
               </ul>
             </div>
@@ -540,7 +545,10 @@
               <div class="bringer-sticky-block">
                 <h2>Zero to One</h2>
                 <p class="bringer-large-text">
-                  From Ideas to MVPs to Product-Market Fit to Scale! We’re with you every step of the way, providing capital, technology, strategy, and essential support—so you can focus on what matters most: YOUR CUSTOMERS.
+                  From Ideas to MVPs to Product-Market Fit to Scale! We’re with
+                  you every step of the way, providing capital, technology,
+                  strategy, and essential support—so you can focus on what
+                  matters most: YOUR CUSTOMERS.
                 </p>
                 <div class="align-right">
                   <a href="about-us.html" class="bringer-arrow-link"
@@ -560,12 +568,15 @@
                 <!-- Card Item -->
                 <div class="bringer-block">
                   <h4>
-                    Ideas are easy,  
+                    Ideas are easy,
                     <span class="bringer-accent">execution wins!</span>
                     Let’s make it happen<span class="bringer-accent">.</span>
                   </h4>
                   <p>
-                    Great ideas are just the beginning. Let’s brainstorm, create a clear, actionable plan, and figure out exactly what you need to move forward. We’re here to provide the right guidance and resources to make your vision a reality!
+                    Great ideas are just the beginning. Let’s brainstorm, create
+                    a clear, actionable plan, and figure out exactly what you
+                    need to move forward. We’re here to provide the right
+                    guidance and resources to make your vision a reality!
                   </p>
                 </div>
                 <!-- .bringer-block -->
@@ -573,13 +584,17 @@
                 <!-- Card Item -->
                 <div class="bringer-block">
                   <h4>
-                    Get   <span class="bringer-accent">more than funding!</span> Let’s build together: products & teams<span
-                      class="bringer-accent"
+                    Get
+                    <span class="bringer-accent">more than funding!</span> Let’s
+                    build together: products & teams<span class="bringer-accent"
                       >.</span
                     >
                   </h4>
                   <p>
-                    Securing funding is just the beginning. Bring your team to our office to work closely with our experts. From strategic guidance to operational support, we’ll help you build a strong foundation for sustainable growth and success.
+                    Securing funding is just the beginning. Bring your team to
+                    our office to work closely with our experts. From strategic
+                    guidance to operational support, we’ll help you build a
+                    strong foundation for sustainable growth and success.
                   </p>
                 </div>
                 <!-- .bringer-block -->
@@ -587,10 +602,10 @@
                 <!-- Card Item -->
                 <div class="bringer-block">
                   <h4>
-                    
-Build fast,
+                    Build fast,
                     <span class="bringer-accent">launch with precision </span>,
-                    & set yourself to scale with ease<span class="bringer-accent"
+                    & set yourself to scale with ease<span
+                      class="bringer-accent"
                       >.</span
                     >
                   </h4>
@@ -607,13 +622,15 @@ Build fast,
                 <!-- Card Item -->
                 <div class="bringer-block">
                   <h4>
-                     
-                    <span class="bringer-accent">Scale efficiently</span
-                    >
-                    – capital, revenue, customers & more <span class="bringer-accent">.</span>
+                    <span class="bringer-accent">Scale efficiently</span>
+                    – capital, revenue, customers & more
+                    <span class="bringer-accent">.</span>
                   </h4>
                   <p>
-                    Scaling requires many moving parts—from raising capital to expanding teams and systems. We provide the right guidance every step of the way, helping you stay aligned with your long-term goals while driving growth.
+                    Scaling requires many moving parts—from raising capital to
+                    expanding teams and systems. We provide the right guidance
+                    every step of the way, helping you stay aligned with your
+                    long-term goals while driving growth.
                   </p>
                 </div>
                 <!-- .bringer-block -->
@@ -632,13 +649,13 @@ Build fast,
           >
             <!-- Counter Item -->
             <div class="bringer-counter bringer-block" data-delay="3000">
-              <div class="bringer-counter-number" data-suffix="K+">15</div>
+              <div class="bringer-counter-number" data-suffix="+">15</div>
               <div class="bringer-counter-label">Start-ups</div>
             </div>
             <!-- .bringer-counter -->
             <!-- Counter Item -->
             <div class="bringer-counter bringer-block" data-delay="3000">
-              <div class="bringer-counter-number" data-suffix="">420</div>
+              <div class="bringer-counter-number" data-suffix="">3</div>
               <div class="bringer-counter-label">Exits</div>
             </div>
             <!-- .bringer-counter -->
@@ -653,7 +670,7 @@ Build fast,
               class="bringer-counter bringer-block is-accented"
               data-delay="3000"
             >
-              <div class="bringer-counter-number" data-suffix="">$5 Mn </div>
+              <div class="bringer-counter-number" data-suffix="">$5M+</div>
               <div class="bringer-counter-label">Deployed</div>
             </div>
             <!-- .bringer-counter -->
@@ -984,7 +1001,8 @@ Build fast,
               class="bringer-masked-cta-content bringer-masked-content at-top-right"
             >
               <p class="bringer-large-text" data-appear="fade-down">
-                Connect with us to gain access to exclusive insights & analytics!✨
+                Connect with us to gain access to exclusive insights &
+                analytics!✨
               </p>
             </div>
           </div>
@@ -1013,7 +1031,9 @@ Build fast,
                     />
                   </a>
                   <div class="bringer-info-description">
-                    Tripleye is a startup studio that invests in startups, provides consulting services to businesses, builds products in-house, while managing its gaming business!
+                    Tripleye is a startup studio that invests in startups,
+                    provides consulting services to businesses, builds products
+                    in-house, while managing its gaming business!
                   </div>
                   <span class="bringer-label">Follow us:</span>
                   <ul
