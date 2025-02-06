@@ -561,7 +561,7 @@ class Bringer_Marquee {
     }
     start() {
         // Calculate speed
-        this.speed = 0.5 * this.$inner.width() * (this.init_speed/this.width);
+        this.speed = 1.5 * this.$inner.width() * (this.init_speed/this.width);
         this.$inner.css('animation-duration', this.speed + 'ms');
 
         // Init Animation
