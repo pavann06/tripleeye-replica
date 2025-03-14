@@ -38,7 +38,7 @@
     --bringer-s-text-accent: #5C9DFF;
 
     /* Used as a text color for accented blocks */
-    --bringer-s-accented-text: var(--bringer-s-heading);
+    --bringer-s-accented-text: white;
 
     /* Used as a primary border-color */
     --bringer-s-border: #F5F7FA27;
@@ -476,3 +476,23 @@
 #but{
     color: white !important;
 }
+#subscribe_email {
+    color: white !important;
+}
+
+#but .bringer-icon {
+    color: white !important; /* If it's a font-based icon */
+    fill: white !important;  /* If it's an SVG */
+}
+
+#mail input::placeholder {
+    color: white;
+}
+#arrow .bringer-icon {
+    color: white !important; /* If it's a font-based icon */
+    fill: white;  /* If it's an SVG */
+}
+
+
+
+
