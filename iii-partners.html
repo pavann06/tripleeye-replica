@@ -24,10 +24,17 @@
     <!-- Favicon -->
     <link rel="icon" href="img/logo-tripeelye-1.png" sizes="32x32" />
     <style>
-#list .current-menu-parent a {
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8) !important;
-    font-weight: bold;
+ul.main-menu li.current-menu-parent > a,
+ul.main-menu li.current-menu-item > a,
+ul.main-menu li.current-menu-ancestor > a {
+    
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8) !important; /* White blur effect */
+    background: rgba(255, 255, 255, 0.2) !important; /* White transparent background */
+    padding: 5px 10px !important; /* Padding for visibility */
+    border-radius: 5px !important; /* Rounded corners */
+    transition: all 0.3s ease-in-out !important;
 }
+
 
 
     </style>
@@ -307,222 +314,14 @@
             </div>
           </div>
         </div>
-        <!-- Portfolio Carousel -->
-        <!-- <div
-          class="swiper bringer-carousel stg-bottom-gap-l"
-          data-appear="fade-up"
-          data-unload="fade-up"
-          data-delay="200"
-          data-tp-centered="0"
-        > -->
-          <!-- <div class="swiper-wrapper"> -->
-            <!-- Card Item 01 -->
-            <!-- <div class="bringer-block bringer-portfolio-card swiper-slide">
-              <div class="bringer-portfolio-card-image">
-                <img
-                  class="bringer-lazy"
-                  src="img/null.png"
-                  data-src="img/portfolio/portfolio01.jpg"
-                  alt=""
-                  width="1200"
-                  height="1200"
-                />
-              </div>
-              <div class="bringer-portfolio-card-footer">
-                <div class="bringer-portfolio-card-title">
-                  <span class="bringer-meta">Branding</span>
-                  <h6>Curology</h6>
-                </div>
-                <span class="bringer-icon bringer-icon-explore"></span>
-              </div>
-              <a href="portfolio-post01.html"></a>
-            </div> -->
-            <!-- .bringer-portfolio-card -->
-
-            <!-- Card Item 02 -->
-            <!-- <div class="bringer-block bringer-portfolio-card swiper-slide">
-              <div class="bringer-portfolio-card-image">
-                <img
-                  class="bringer-lazy"
-                  src="img/null.png"
-                  data-src="img/portfolio/portfolio02.jpg"
-                  alt=""
-                  width="1200"
-                  height="1200"
-                />
-              </div>
-              <div class="bringer-portfolio-card-footer">
-                <div class="bringer-portfolio-card-title">
-                  <span class="bringer-meta">Advertising</span>
-                  <h6>Cookie Dough</h6>
-                </div>
-                <span class="bringer-icon bringer-icon-explore"></span>
-              </div>
-              <a href="portfolio-post02.html"></a>
-            </div> -->
-            <!-- .bringer-portfolio-card -->
-
-            <!-- Card Item 03 -->
-            <!-- <div class="bringer-block bringer-portfolio-card swiper-slide">
-              <div class="bringer-portfolio-card-image">
-                <img
-                  class="bringer-lazy"
-                  src="img/null.png"
-                  data-src="img/portfolio/portfolio03.jpg"
-                  alt=""
-                  width="1200"
-                  height="1200"
-                />
-              </div>
-              <div class="bringer-portfolio-card-footer">
-                <div class="bringer-portfolio-card-title">
-                  <span class="bringer-meta">Marketing</span>
-                  <h6>Gaming Power</h6>
-                </div>
-                <span class="bringer-icon bringer-icon-explore"></span>
-              </div>
-              <a href="portfolio-post03.html"></a>
-            </div> -->
-            <!-- .bringer-portfolio-card -->
-
-            <!-- Card Item 04 -->
-            <!-- <div class="bringer-block bringer-portfolio-card swiper-slide">
-              <div class="bringer-portfolio-card-image">
-                <img
-                  class="bringer-lazy"
-                  src="img/null.png"
-                  data-src="img/portfolio/portfolio04.jpg"
-                  alt=""
-                  width="1200"
-                  height="1200"
-                />
-              </div>
-              <div class="bringer-portfolio-card-footer">
-                <div class="bringer-portfolio-card-title">
-                  <span class="bringer-meta">Advertising</span>
-                  <h6>Riot Energy</h6>
-                </div>
-                <span class="bringer-icon bringer-icon-explore"></span>
-              </div>
-              <a href="portfolio-post04.html"></a>
-            </div> -->
-            <!-- .bringer-portfolio-card -->
-
-            <!-- Card Item 05 -->
-            <!-- <div class="bringer-block bringer-portfolio-card swiper-slide">
-              <div class="bringer-portfolio-card-image">
-                <img
-                  class="bringer-lazy"
-                  src="img/null.png"
-                  data-src="img/portfolio/portfolio05.jpg"
-                  alt=""
-                  width="1200"
-                  height="1200"
-                />
-              </div>
-              <div class="bringer-portfolio-card-footer">
-                <div class="bringer-portfolio-card-title">
-                  <span class="bringer-meta">Marketing</span>
-                  <h6>Smoothie</h6>
-                </div>
-                <span class="bringer-icon bringer-icon-explore"></span>
-              </div>
-              <a href="portfolio-post05.html"></a>
-            </div> -->
-            <!-- .bringer-portfolio-card -->
-
-            <!-- Card Item 06 -->
-            <!-- <div class="bringer-block bringer-portfolio-card swiper-slide">
-              <div class="bringer-portfolio-card-image">
-                <img
-                  class="bringer-lazy"
-                  src="img/null.png"
-                  data-src="img/portfolio/portfolio06.jpg"
-                  alt=""
-                  width="1200"
-                  height="1200"
-                />
-              </div>
-              <div class="bringer-portfolio-card-footer">
-                <div class="bringer-portfolio-card-title">
-                  <span class="bringer-meta">Branding</span>
-                  <h6>Positive Beverage</h6>
-                </div>
-                <span class="bringer-icon bringer-icon-explore"></span>
-              </div>
-              <a href="portfolio-post06.html"></a>
-            </div> -->
-            <!-- .bringer-portfolio-card -->
-
-            <!-- Card Item 07 -->
-            <!-- <div class="bringer-block bringer-portfolio-card swiper-slide">
-              <div class="bringer-portfolio-card-image">
-                <img
-                  class="bringer-lazy"
-                  src="img/null.png"
-                  data-src="img/portfolio/portfolio07.jpg"
-                  alt=""
-                  width="1200"
-                  height="1200"
-                />
-              </div>
-              <div class="bringer-portfolio-card-footer">
-                <div class="bringer-portfolio-card-title">
-                  <span class="bringer-meta">Branding</span>
-                  <h6>Fashion Makeup</h6>
-                </div>
-                <span class="bringer-icon bringer-icon-explore"></span>
-              </div>
-              <a href="portfolio-post07.html"></a>
-            </div> -->
-            <!-- .bringer-portfolio-card -->
-          <!-- </div> -->
-          <!-- Pagination -->
-          <!-- <div class="swiper-pagination bringer-dots"></div> -->
-        <!-- </div> -->
-        <!-- .bringer-portfolio-carousel -->
-        <!-- <div
-          class="align-center"
-          data-appear="fade-up"
-          data-unload="zoom-out"
-          data-delay="300"
-        >
-          <a href="portfolio-slider.html" class="bringer-button"
-            >Discover Full Portfolio</a
-          >
-        </div> -->
+        
       </section>
     </div>
 
     <!-- Page Main -->
     <main id="bringer-main">
       <div class="stg-container">
-        <!-- Section: Page Title -->
-        <!-- <section class="backlight-bottom">
-          <div class="stg-row">
-            <div class="stg-col-6 stg-offset-3">
-              <div class="align-center">
-                <h1
-                  class="bringer-page-title"
-                  data-appear="fade-up"
-                  data-unload="fade-up"
-                >
-                  Our Portfolio
-                </h1>
-                <p
-                  class="bringer-large-text"
-                  data-appear="fade-up"
-                  data-delay="100"
-                  data-unload="fade-up"
-                >
-                  Our portfolio is diverse, spanning countries and
-                  industries—from technology to electric bikes to coffee
-                  shops—all driven by great founders!
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> -->
+       
 
         <!-- Section: Grid -->
         <section>
