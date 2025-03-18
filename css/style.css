@@ -869,6 +869,8 @@ ul.main-menu li.current-menu-item > a,
 ul.main-menu li.current-menu-ancestor > a {
     color: var(--bringer-c-menu-active);
     font-weight: var(--bringer-t-heading-fw);
+    /* text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8); 
+    background: transparent !important;  */
 }
 #bringer-header ul.sub-menu > li.current-menu-item a::after,
 #bringer-header ul.sub-menu > li.current-menu-parent a::after {
